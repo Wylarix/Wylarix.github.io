@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	background-color: #313338;
+}
+.title{
+	z-index: 2;
+	background-color: #5865f2;
+	height: 74px;
+	width: 100%;
+}
+.title_text{
+	text-align: center;
+	color: white;
+	line-height: 72px;
+}
+.discord{
+	position: absolute;
+	top: 21px;
+	left: 20px;
+}
+.side_panel{
+	position: absolute;
+	z-index: 1;
+	background-color: #1e1f22;
+	height: 100vh;
+	width: 72px;
+}
+.wide_panel{
+	position: absolute;
+	z-index: 0;
+	background-color: #2b2d31;
+	height: 100vh;
+	width: 312px;
+}
+.ds_widget{
+	z-index: 2;
+	position: absolute;
+	border: 0px;
+	margin-left: 0px;
+	margin-top: -74px;
+	margin-bottom: 100px;
+	width: 350px;
+}
+.ds_widget_block{
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	top: 74px;
+	width: 350px;
+	height: 100%;
+}
+.ds_widget_head{
+	z-index: 3;
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	height: 74px;
+	width: 160px;
+}
+.ds_head{
+	z-index: 3;
+	right: 0;
+	position: absolute;
+	border: 0px;
+	margin-left: -200px;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #2b2d31;
+}
+::-webkit-scrollbar-thumb{
+	width: 7px;
+    background-color: #1a1b1e;
+}
